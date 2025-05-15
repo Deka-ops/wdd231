@@ -55,8 +55,8 @@ main {
 .intro-container img {
     border-radius: 50%;
     padding: 5px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     margin-top: 10px;
 }
@@ -151,8 +151,8 @@ main {
 
 .tag-two img {
     padding: 15px 0 3px 0;
-    width: 140px;
-    height: auto;
+    width: 200px;
+    height: 250px;
     margin-top: 16px;
 }
 
