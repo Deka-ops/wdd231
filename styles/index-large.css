@@ -29,16 +29,6 @@ main {
     width: 100%;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: .1em;
-    margin: 0;
-    background: rgb(254, 250, 224);
-}
-
 #menubutton {
     display: none; /* hide hamburger button */
 }
@@ -51,12 +41,25 @@ main {
     max-width: 180px;
 }
 
+.header {
+
+    background: rgb(254, 250, 224);
+    display: grid;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    width: -80px;
+    margin-top: -80px;
+}
+
+
 h1 {
     font-weight: 800;
     font-size: 2.5rem;
     text-align: center;
     padding: 1em;
     color: rgb(188, 108, 37);
+    width: -100;
 }
 
 
