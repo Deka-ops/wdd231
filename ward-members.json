@@ -1,0 +1,28 @@
+{
+  "familyName": "Okoro",
+  "moveInDate": "2025-04-15",
+  "familySize": 4,
+  "visitedByBishopric": true,
+  "members": [
+    {
+      "name": "Chinedu Okoro",
+      "gender": "Male",
+      "birthdate": "1980-03-12"
+    },
+    {
+      "name": "Ngozi Okoro",
+      "gender": "Female",
+      "birthdate": "1983-08-24"
+    },
+    {
+      "name": "Adaeze Okoro",
+      "gender": "Female",
+      "birthdate": "2010-06-30"
+    },
+    {
+      "name": "Emeka Okoro",
+      "gender": "Male",
+      "birthdate": "2012-11-09"
+    }
+  ]
+}
