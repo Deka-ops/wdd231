@@ -24,6 +24,17 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+document.getElementById("menu").addEventListener("click", function () {
+    const nav = document.getElementById("animatemenu");
+    nav.classList.toggle("open");
+});
+
+document.querySelector(".close-menu").addEventListener("click", function () {
+    document.getElementById("animatemenu").classList.remove("open");
+});
+
+
+
 
 const courses = [
     {
