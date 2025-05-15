@@ -5,95 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gertrude Njideka Chori">
-    <meta name="description" content="WDD 231 - Course Home Page | An Official profile of Gertrude Njideka Chori, a passionate web and software developer. Explore his course work, certificates, and professional links to GitHub ">
-    <title>Gertrude Njideka Chori</title>
+    <meta name="description" content="Home Page for WDD231 - Web Development I">
+    <title>WDD 231 - Course Home Page | Gertrude Njideka Chori</title>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.jpeg" sizes="16x16" type="image/jpeg">
 
-    <!-- CSS Styles -->
     <link rel="stylesheet" href="styles/normalize.css" media="screen">
     <link rel="stylesheet" href="styles/index.css" media="screen">
     <link rel="stylesheet" href="styles/index-large.css" media="screen">
-
-    <!-- JavaScript -->
     <script src="scripts/index.js" defer></script>
     <script src="scripts/course-list-array.js" defer></script>
 </head>
 
 <body>
 
-    <header class="header">
-            <img src="images/gertrude.webp" alt="Photo of Gertrude Njideka" width="80">
-            <h1>Gertrude Njideka Chori</h1>
+    <div class="intro-container">
+        <img src="images/gertrude.webp" alt="Photo of Gertrude">
+        <h1>Gertrude Njideka Chori</h1>
         <span id="menu">☰</span>
+    </div>
 
-        <nav id="animatemenu">
-            <ul class="navigation-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="chamber/index.html">Chamber</a></li>
-                <li><a href="chamber/final.html">Final Project</a></li>
-                <li><a href="https://github.com/deka-ops" target="_blank">GitHub Profile</a></li>
-                <li><a href="https://www.linkedin.com/in/gertrude-njideka" target="_blank">LinkedIn</a></li>
-            </ul>
+    <header>
+        <nav class="nav-links">
+            <a href="#"> <span class="close-menu">✖</span> </a>
+            <a href="index.html">Home</a>
+            <a href="chamber/index.html">Chamber</a>
+             <a href="final/final.html">Final Projects</a>
+            <a href="https://github.com/deka-ops">GitHub Profile</a>
+            <a href="www.linkedin.com/in/Gertrude Njideka Nwabuikwu-Chori">LinkedIn</a>
         </nav>
     </header>
 
     <main>
         <div class="main-container">
-
-            <section class="card">
+            <section class="tag-one">
                 <h2>Course Work</h2>
-                <ul class="link">
-                    <li><a href="https://deka-ops.github.io/wdd131-dynamic-web-fundamentals/">📌 My Personal
-                            Portfolio</a></li>
-                    <li><a href="https://deka-ops.github.io/wdd131/ladybird">📌 WDD 131 Website - Ladybird Global</a>
-                    </li>
-                    <li><a href="https://deka-ops.github.io/wdd130/wwr/index.html">📌 WDD 130 Website - White Water
-                            Rafting</a></li>
+                <ul>
+                    <li class="course-taken">📌 WDD231 Home Page</li>
+                    <li class="course-taken">📌 Chamber of Commerce</li>
+                    <li class="course-taken">📌 Final Project</li>
                 </ul>
             </section>
 
-            <section class="card">
-                <h2>Abia State, Nigeria</h2>
-                <div class="image">
-                    <img src="images/abia-state.webp" width="150" height="250" alt="Abia State" />
-                </div>
+            <section class="tag-two">
+                <h2>Aba, Abia State, Nigeria</h2>
+                <img src="images/abia-state.webp" width="1724" height="2594" alt="Aba State">
                 <p>Osisioma, Aba, Abia State</p>
             </section>
 
-            <section class="card large-card">
+            <section class="tag-three">
                 <h2>Web and Computer Programming Certificate</h2>
 
-                <!-- Filter Buttons -->
-                <div class="courses-type">
-                    <button class="filter-btn" data-filter="cse110">CSE110</button>
-                    <button class="filter-btn" data-filter="CSE111">CSE111</button>
-                    <button class="filter-btn" data-filter="WDD130">WDD130</button>
-                    <button class="filter-btn" data-filter="WDD131">WDD131</button>
-                    <button class="filter-btn" data-filter="WDD231">WDD231</button>
-                    <button class="filter-btn" data-filter="CSE210">CSE210</button>
-                    
+                <div class="btn-container">
+                    <button class="all-course">All</button>
+                    <button class="cse-course">CSE</button>
+                    <button class="wdd-course">WDD</button>
                 </div>
-
-                <!-- Dynamic Course List -->
-                <div class="courses"></div>
-
-                <div>
-                    <p>Total Credits: <span id="total-credits"></span></p>
-                </div>
+                <hr>
+                <div class="courses-container"></div>
             </section>
 
         </div>
+        <span class="total-credit"></span>
+        <dialog id="course-details"></dialog>
     </main>
 
     <footer class="footer-nav">
-        <p><span id="currentYear">&copy;</span> Gertrude Njideka Chori 🌺| Abia State🌺 | Nigeria🌺</p>
+
+        <span id="currentYear">&copy;</span>
+
+        <div class="flag-name">
+            <p> 🌺 Gertrude Njideka Chori 🌺 Abia State, Nigeria </p>
+            <img src="images/nigeria-flag.webp" alt="Nigerian Flag" loading="lazy">
+        </div>
         <p id="lastModified"></p>
+
     </footer>
 
 </body>

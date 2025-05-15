@@ -46,7 +46,7 @@ const courses = [
         technology: [
             'C#'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -77,3 +77,72 @@ const courses = [
         completed: false
     }
 ]
+ 
+
+const coursesContent = document.querySelector(".courses-container");
+const totalCredit = document.querySelector(".total-credit");
+
+displayCourses(courses)
+
+// Displays courses based on the filter
+function displayCourses(filterCourse) {
+    coursesContent.innerHTML = "";
+
+    filterCourse.forEach(course => {
+        const createCourseElement = document.createElement("span");
+        const textNode = document.createTextNode(`${course.subject} ${course.number}`);
+        createCourseElement.appendChild(textNode)
+        
+        coursesContent.appendChild(createCourseElement);
+
+        createCourseElement.classList.add(course.completed === true ? "completed" : "incomplete");    
+        
+        createCourseElement.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
+    });
+
+    const addTotalCredit = filterCourse.reduce((total, course) => {
+        return total + course.credits;
+    }, 0);
+
+    totalCredit.innerHTML = "<strong> Total Credit Required: </strong> " + addTotalCredit;
+};
+
+
+// Dialog that displays course details 
+function displayCourseDetails(course) {
+    const courseDetails = document.querySelector("#course-details");
+    courseDetails.innerHTML = '';
+
+    courseDetails.innerHTML = `
+        <button id="closeModal">❌</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits</strong>: ${course.credits}</p>
+        <p><strong>Certificate</strong>: ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+        `;
+
+        courseDetails.showModal();
+        
+        closeModal.addEventListener("click", () => {
+            courseDetails.close();
+        });
+}
+        
+ 
+// Event listeners for the filter buttons
+const allCourse = document.querySelector(".all-course").addEventListener("click", ()=> {
+    displayCourses(courses);
+});
+
+
+const cseCourse = document.querySelector(".cse-course").addEventListener("click", ()=>  {
+    displayCourses(courses.filter(course => course.subject === "CSE"));
+});
+
+const wddCourse = document.querySelector(".wdd-course").addEventListener("click", ()=> {
+    displayCourses(courses.filter(course => course.subject === "WDD"));
+});
