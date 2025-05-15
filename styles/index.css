@@ -33,6 +33,15 @@ main {
     position: relative;
 }
 
+.header img {
+    width: 150px;
+    border-radius: 80%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
 .image-profile {
     width: 60px;
     height: 60px;
