@@ -25,27 +25,30 @@ main {
 
 .header {
     background: rgb(254, 250, 224);
-    display: grid;
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1rem 1rem;
     text-align: center;
     position: relative;
 }
 
 .image-profile {
     width: 60px;
+    height: 60px;
     border-radius: 50%;
     border: 2px solid #fff;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 1rem;
+    left: 1rem;
 }
 
 h1 {
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: rgb(188, 108, 37);
-    margin-top: 3rem;
-    padding: 0.5em;
+    margin-top: 1rem;
+    z-index: 1;
 }
 
 /* Hamburger Menu */
