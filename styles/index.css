@@ -57,7 +57,7 @@ h1 {
     font-size: 1.5rem;
     color: rgb(188, 108, 37);
     margin-top: 1rem;
-    z-index: 1;
+    z-index: 10;
 }
 
 /* Hamburger Menu */
