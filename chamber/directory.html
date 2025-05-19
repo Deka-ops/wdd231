@@ -1,135 +1,122 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Gertrude Njideka Chori" />
-  <meta name="description" content="Aba is a unique and exciting travel destination...">
-
-  <meta property="og:title" content="Aba Chamber of Commerce" />
-  <meta property="og:description" content="Aba Chamber of Commerce connecting businesses together" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://facebook.com/images/gertrude.webp" />
-  <meta property="og:url" content="https://facebook.com/directory.html" />
-
-  <title>Directory | Aba Chamber of Commerce</title>
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-16x16" />
-  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon" />
-  <link rel="manifest" href="images/icons/site.webmanifest" />
-  <link rel="icon" href="https://www.favicon.cc/?#" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="styles/normalize.css" />
-  <link rel="stylesheet" href="styles/directory.css" />
-  <link rel="stylesheet" href="styles/directory-large.css" />
-
-  <script src="scripts/directory.js" defer></script>
-  <script src="scripts/lastmodified.js" defer></script>
-  <script src="scripts/nav.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page contains the information from all the businesses that belong to the Chamber of Commerce in Aba ">
+    <meta name="author" content="Gertrude Njideka Chori">
+    <meta property="og:title" content="Aba Chamber of Commerce">
+    <meta property="og:description" content="Create your network with other business owners and entrepeneurs in the bubbling city of Aba">
+    <meta property="og:image" content="https://github.com/Deka-ops/wdd231/chamber/images/Aba_town_hall.jpg">
+    <meta property="og:url" content="https://deka-ops.github.io/wdd231/chamber/directory.html">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="styles/directory.css" rel="stylesheet">
+    <link href="styles/directory-large.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/directory.js" defer></script>
+    <title>Aba Chamber Of Commerce</title>
 </head>
-
 <body>
-  <header>
-    <!-- Top Banner -->
-    <div class="top-banner">
-      <nav class="items-left">
-        <ul>
-          <li><i class="fa-brands fa-facebook" aria-hidden="true"></i></li>
-          <li><i class="fa-brands fa-twitter" aria-hidden="true"></i></li>
-          <li><i class="fa-brands fa-linkedin" aria-hidden="true"></i></li>
-          <li>(+234) 817-362-0785</li>
-        </ul>
-      </nav>
-      <nav class="items-right">
-        <ul>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-      </nav>
+    <div class="header-large">
+        <header>
+            <img src="images/Aba-chambers-icon.jpg" alt="Logo" width="50" height="50">
+            <div>
+                <h3>Aba,</h3>
+                <h4>Chamber of Commerce</h4>
+            </div>
+            <button id="hamButton" aria-label="hamburger-button"></button>    
+        </header>    
+
+        <nav id="animated-nav">   
+            <ul class="menuLinks">
+                <li><a href="#">Home</a></li>
+                <li class="current-menu-item"><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
     </div>
 
-    <!-- Main Navigation -->
-    <div class="nav-container">
-      <a href="index.html">
-        <img src="images/Aba-chambers-icon.jpg" alt="Aba Chambers of Commerce logo" />
-      </a>
-      <span id="icon-menu"></span>
-      <nav class="nav-links">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="directory.html" class="active">Directory</a></li>
-          <li><a href="join.html">Join</a></li>
-          <li><a href="discover.html">Discover</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <main>
+        <div class="button-on-hero">
+            <img class="hero" src="images/aba_home_page.jpg" alt="Hero Image">
+            <button>Keynote tickets</button>
+        </div>
+        
+        <h1>Home</h1>
+        <div id="home">
+            <section class="events">
+                <label>Events</label>
+                <fieldset>
+                  <br>
+                  <br>
+                  <br> 
+                  <br>
+                  <br>
+                </fieldset>
+            </section>
 
-  <main>
-    <section class="intro-msg-container">
-      <h1>Business Directory</h1>
-      <p>
-        Aba Chambers of Commerce was established in 2025 with the vision to build a community where
-        businesses can thrive, foster a community of growth, and contribute to economic development.
-      </p>
-      <p>Find all members of the Aba Chamber of Commerce below:</p>
-    </section>
+            <section class="weather">
+                <label>Current Weather</label>
+                <fieldset>   
+                    <img src="images/weather-icon.png" alt="weather-icon">          
+                    <div class="weather-info">
+                        <p>75°F</p>
+                        <p>Partly Cloudy</p>
+                        <p>High: 85°F</p>
+                        <p>Low: 52°F</p>
+                        <p>Humidity: 34%</p>
+                        <p>Sunrise: 7:30 am</p>
+                        <p>Sunset: 9:59pm</p>
+                    </div>
+                </fieldset>
+            </section>
 
-    <div class="list-grid-icons">
-      <button id="grid-btn" type="button" aria-label="Grid View">
-        <i class="fa fa-th" aria-hidden="true"></i>
-      </button>
-      <button id="list-btn" type="button" aria-label="List View">
-        <i class="fas fa-list" aria-hidden="true"></i>
-      </button>
-    </div>
+            <section class="forecast">
+                <label>Weather Forecast</label>
+                <fieldset>
+                    <p>Today: 90°F</p>
+                    <p>Wednesday: 89°F</p>
+                    <p>Thursday: 68°F</p>
+                </fieldset>
+            </section>
+        </div>
+        
+        <div class="display-type">
+            <button id="grid"><img src="icons/grid_icon.png" alt="grid-view"></button>
+            <button id="list"><img src="icons/list_view_icon.png" alt="list-view"></button>
+        </div>    
 
-    <section id="comp-grid"></section>
-    <section id="comp-list"></section>
-  </main>
-
-  <footer>
-    <div class="footer-background">
-      <div class="footer-container">
-        <ul class="sec-one">
-          <li>
-            Aba Chamber of Commerce <br />
-            Mpk18 zone 8, Ekeoha Shopping Center, Aba <br />
-            <a href="mailto:info@abacc.org">info@abacc.org</a><br />
-            (+234) 817-362-0785
-          </li>
-        </ul>
-
-        <ul class="sec-two">
-          <li><i class="fa-brands fa-facebook" aria-hidden="true"></i></li>
-          <li><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></li>
-          <li><i class="fa-brands fa-linkedin" aria-hidden="true"></i></li>
-        </ul>
-
-        <ul class="sec-three">
-          <li>
-            WDD231 Web Development 1 Project <br />
-            Brigham Young University - Idaho <br />
-            Gertrude Njideka Chori
-          </li>
-          <li id="lastModified"></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="footend-container">
-      <ul class="footer-end">
-        <li><span id="currentYear">©</span> Aba Chamber of Commerce | All rights reserved</li>
-        <li>Designed by Gertrude Njideka Chori</li>
-      </ul>
-    </div>
-  </footer>
+        <div id="cards" class="cards"></div>
+    </main>
+    <footer>
+        <div class="project-info">
+            <h4>Aba Chamber of Commerce</h4>
+            <p>mpk18, zone 8</p>
+            <p>Ekeoha Shopping Center Aba</p>
+            <p>info@chamber.org</p>
+            <p>(904) 651-7876</p>
+        </div>
+        <div class="social-media">
+            <a href="https://facebook.com">
+                <img src="icons/fb.jfif" alt="facebook-logo">
+            </a>    
+            <a href="https://twitter.com">
+                <img src="icons/tw.png" alt="twitter-logo">
+            </a>    
+            <a href="https://instagram.com">
+                <img src="icons/in.jfif" alt="instagram-logo">
+            </a>    
+        </div>
+        <div class="course-info">
+            <h4>WDD231 Class Project</h4>
+            <p>Gertrude Njideka Chori</p>
+            <p><span id="current-year"></span></p>
+            <p><span id="last-modified"></span></p>
+        </div>
+    </footer>
 </body>
-
 </html>

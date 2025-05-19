@@ -1,117 +1,75 @@
-const getCompanyGrid = document.querySelector("#comp-grid");
-const getCompanyList = document.querySelector("#comp-list");
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("#cards");
 
-
-const getGridBtn = document.querySelector("#grid-btn");
-const getListBtn = document.querySelector("#list-btn");
-
-let allCompanies = [];
-
-const url = "data/members.json"
- 
-async function getCompanies() {
-    const response = await fetch(url); // fetch data from the url
-    const data = await response.json(); // convert the data to json
-    allCompanies = data.companies;
-
-    displayGrid(allCompanies)
-    displayList(allCompanies)
-
-}
-getCompanies();
-
-
-
-
-// Show grid
-getGridBtn.addEventListener("click", () => {
-    getCompanyList.style.display = "none";
-    getCompanyGrid.style.display = "grid";
+gridbutton.addEventListener("click", () =>{
+    display.classList.add("cards");
+    display.classList.remove("list");
 });
 
-
-// Build and display grid view
-function displayGrid(allCompanies) {
-    getCompanyGrid.innerHTML = "";
-    
-    allCompanies.forEach(allCompany => {
-        let container = document.createElement("div");
-        container.setAttribute("style", "width: 100%; height: 292px;");
-
-        container.innerHTML = `
-            <h1>${allCompany.name}</h1>
-            <p>${allCompany.address}</p>
-            <p>${allCompany.phoneNumbers}</p>
-            <a href="${allCompany.webAddress}" target="_blank" style="color:#2a7b48;">Visit Site</a>
-        `
-        getCompanyGrid.appendChild(container);        
-    });
-}
-
-
-
-
-// Show list
-getListBtn.addEventListener("click", () => {    
-    getCompanyGrid.style.display = "none";
-    getCompanyList.style.display = "grid";
+listbutton.addEventListener("click", () =>{
+    display.classList.add("list");
+    display.classList.remove("cards");
 });
 
-// Build and display list view
-function displayList(allCompanies) {
-    getCompanyList.innerHTML = "";
+//Footer copyright and last modified information
+const ElmtYear = document.querySelector("#current-year");
+const ElmtLastModified = document.querySelector("#last-modified");
+const currentYear = new Date();
+const lastModified = document.querySelector("#last-modified");
+const date = new Date(document.lastModified);
+let year = currentYear.getFullYear();
+const spanElmt = document.createElement("span");
+
+document.querySelector('#current-year').innerHTML = '&COPY;' +  year + ' Aba Chamber Of Commerce';
+document.querySelector('#last-modified').innerHTML = date;
+ElmtYear.appendChild(spanElmt);
+ElmtLastModified.appendChild(spanElmt);     
+
+const hamburgerButton = document.querySelector("#hamButton");
+const navElement = document.querySelector("#animated-nav");
+
+hamburgerButton.addEventListener("click", () => {
+    navElement.classList.toggle("open");
+    hamburgerButton.classList.toggle("open");
+});
+
+const directory = "data/members.json";
+const cards = document.querySelector("#cards");
+
+async function getMembersData(){
+    const response = await fetch(directory);
+    const data = await response.json();
+    displayMembers(data.members);
     
-    allCompanies.forEach(allCompany => {
+}
 
-        let table = document.createElement("div");
-        table.classList.add("table-list");
-
-        table.innerHTML = `
-            <div>${allCompany.name}</div>
-            <div>${allCompany.address}</div>
-            <div>${allCompany.phoneNumbers}</div>
-            <div>${allCompany.websitesUrls}</div>
-        `
-        getCompanyList.appendChild(table);
+const displayMembers = (members) =>{
+    members.forEach(member => {
+        let card = document.createElement("section");
+        let companyName = document.createElement("h2");
+        let address = document.createElement("h4");
+        let phoneNumber = document.createElement("h4");
+        let url = document.createElement("h4");
+        let logo = document.createElement("img");
         
+
+        companyName.textContent = `${member.name}`;
+        address.textContent = `${member.address}`;
+        phoneNumber.textContent = `Phone: ${member.phone}`;
+        url.textContent = `Website: ${member.url}`;
+        logo.setAttribute("src", member.image);
+        logo.setAttribute("alt", `${member.name}`);
+        logo.setAttribute("loading", "lazy");
+
+        card.appendChild(companyName);
+        card.appendChild(logo);
+        card.appendChild(address);
+        card.appendChild(phoneNumber);
+        card.appendChild(url);
+
+        document.querySelector("#cards").appendChild(card);
     });
 }
 
-const gridContainer = document.querySelector("#comp-grid");
-const listContainer = document.querySelector("#comp-list");
-
-async function getMembers() {
-  const response = await fetch("data/members.json");
-  const data = await response.json();
-  displayMembers(data);
-}
-
-function displayMembers(members) {
-  members.forEach(member => {
-    const card = document.createElement("section");
-    card.classList.add("member-card");
-    card.innerHTML = `
-      <img src="images/members/${member.image}" alt="${member.name} logo">
-      <h2>${member.name}</h2>
-      <p>${member.address}</p>
-      <p>${member.phone}</p>
-      <a href="${member.website}" target="_blank">Visit Website</a>
-      <p class="membership-level">Membership: ${["", "Member", "Silver", "Gold"][member.membership]}</p>
-    `;
-    gridContainer.appendChild(card);
-    const listItem = card.cloneNode(true);
-    listContainer.appendChild(listItem);
-  });
-}
-
-getMembers();
-
-// Toggle grid/list view
-document.getElementById("grid-btn").addEventListener("click", () => {
-  gridContainer.style.display = "grid";
-  listContainer.style.display = "none";
-});
-document.getElementById("list-btn").addEventListener("click", () => {
-  gridContainer.style.display = "none";
-  listContainer.style.display = "block";
-});
+getMembersData();
