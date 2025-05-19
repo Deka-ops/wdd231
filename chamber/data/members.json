@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Elite Printworks",
+    "address": "12 Azikiwe Rd, Aba",
+    "phone": "+234 803 456 7890",
+    "website": "https://eliteprintworks.ng",
+    "membership": 3,
+    "info": "Top-tier printing services in Aba."
+  },
+  {
+    "name": "Golden Textiles",
+    "address": "Shop 5, Ariaria Market",
+    "phone": "+234 812 345 6789",
+    "website": "https://goldentextiles.com",
+    "membership": 2,
+    "info": "Leading textile distributor."
+  },
+  {
+    "name": "City Hub Tech",
+    "address": "18 Aba-Owerri Road",
+    "phone": "+234 701 111 2222",
+    "website": "https://cityhubtech.ng",
+    "membership": 1,
+    "info": "Local IT and networking experts."
+  },
+  {
+    "name": "Royal Catering Services",
+    "address": "56 Umule Road, Aba",
+    "phone": "+234 806 333 4444",
+    "website": "https://royalcatering.ng",
+    "membership": 2,
+    "info": "Professional event and food services."
+  },
+  {
+    "name": "Maxi Hardware",
+    "address": "Shop 22, Cemetery Market",
+    "phone": "+234 805 555 6666",
+    "website": "https://maxihardware.com",
+    "membership": 1,
+    "info": "Building and construction tools supplier."
+  },
+  {
+    "name": "Aba Logistics Express",
+    "address": "Plot 9, Port Harcourt Road",
+    "phone": "+234 809 777 8888",
+    "website": "https://abalogistics.com",
+    "membership": 3,
+    "info": "Fast and secure delivery across Nigeria."
+  },
+  {
+    "name": "Green Spark Solar",
+    "address": "27 Milverton Ave, Aba",
+    "phone": "+234 703 999 0000",
+    "website": "https://greensparksolar.ng",
+    "membership": 2,
+    "info": "Affordable solar energy solutions for homes and businesses."
+  }
+]

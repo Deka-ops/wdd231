@@ -77,3 +77,41 @@ function displayList(allCompanies) {
     });
 }
 
+const gridContainer = document.querySelector("#comp-grid");
+const listContainer = document.querySelector("#comp-list");
+
+async function getMembers() {
+  const response = await fetch("data/members.json");
+  const data = await response.json();
+  displayMembers(data);
+}
+
+function displayMembers(members) {
+  members.forEach(member => {
+    const card = document.createElement("section");
+    card.classList.add("member-card");
+    card.innerHTML = `
+      <img src="images/members/${member.image}" alt="${member.name} logo">
+      <h2>${member.name}</h2>
+      <p>${member.address}</p>
+      <p>${member.phone}</p>
+      <a href="${member.website}" target="_blank">Visit Website</a>
+      <p class="membership-level">Membership: ${["", "Member", "Silver", "Gold"][member.membership]}</p>
+    `;
+    gridContainer.appendChild(card);
+    const listItem = card.cloneNode(true);
+    listContainer.appendChild(listItem);
+  });
+}
+
+getMembers();
+
+// Toggle grid/list view
+document.getElementById("grid-btn").addEventListener("click", () => {
+  gridContainer.style.display = "grid";
+  listContainer.style.display = "none";
+});
+document.getElementById("list-btn").addEventListener("click", () => {
+  gridContainer.style.display = "none";
+  listContainer.style.display = "block";
+});
