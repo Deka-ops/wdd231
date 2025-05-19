@@ -1,4 +1,5 @@
-[
+{
+  "members":[
   {
     "name": "Elite Printworks",
     "address": "12 Azikiwe Rd, Aba",
@@ -56,3 +57,4 @@
     "info": "Affordable solar energy solutions for homes and businesses."
   }
 ]
+}
