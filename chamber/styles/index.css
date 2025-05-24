@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #9CBAA8;
+    --secondary-color: #7EA58D;
+    --text-color: #000;
+    --background-color: #E9E9E9;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*format for header*/
+header,footer{
+    /* border: solid blue 2px; */
+    background-color: var(--primary-color);
+    /* width: 40rem; */
+    padding-top: 1rem;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 70px auto 44px;
+    align-items: end;
+}
+
+header div{
+    /* border: dashed red 3px; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+}
+
+header img{
+    padding: 2rem 2vw;
+}
+
+#logo{
+    width: 50px;
+    height: auto;
+}
+
+#hamButton{
+    font-size: 2rem;
+    background:none;
+    border: none;
+    color: Var(--text-color);
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: .25rem 2vw; 
+    margin-bottom: 2.5rem;
+}
+
+#hamButton::before{
+    content: "\2630";
+}
+
+#hamButton.open::before{
+    content: "X";
+}
+
+/*formatting for navigation*/
+nav{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+    background-color: var(--primary-color);
+    width: 40rem;
+}
+
+nav ul{overflow: hidden;}
+
+nav.open{
+    grid-template-rows: 1fr;
+}
+
+nav ul.menuLinks li a{
+    /* border: solid pink 3px; */
+    display: block;
+    padding: .75rem 2vw;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+nav li.current-menu-item{
+    background-color: rgba(0,0,0,0.2);
+}
+
+nav ul.menuLinks a:hover{
+        background-color: rgba(255, 255, 255, 0.2);
+}
+
+ul.menuLinks{
+    list-style-type: none;
+}
+
+/*formatting for Hero image*/
+
+.hero{
+    width: 40rem;
+    height: auto;
+    position: relative;
+}
+
+.button-on-hero button{
+    position: absolute;
+    left: 65%;
+    top: 55%;
+    height: 50px;
+    padding: 5px;
+    background-color: #93b9ca;
+    border: solid #93b9ca;
+    border-radius: 5px;
+    opacity: .7;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.button-on-hero button:hover{
+    cursor: pointer;
+}
+/*Formatting for the main section*/
+
+main h1{
+    padding: 1rem;
+}
+
+.join{
+    /* border: solid orange 4px; */
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.join button{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    color: var(--text-color);
+    border: solid var(--text-color) 3px;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.join button:hover{
+    cursor: pointer;
+}
+
+.events, .weather, .forecast{
+    /* background-color: var(--secondary-color); */
+    font-size: x-large;
+    font-weight: 500;
+    padding-top: 1.5rem;
+}
+
+.events label, .weather label, .forecast label{
+    /* border: solid orange 3px; */
+    background-color: var(--secondary-color);
+    display: flex;
+    padding-left: 1rem;
+}
+
+.events fieldset, .weather fieldset, .forecast fieldset{
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.forecast p{
+    font-size: large;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.forecast{
+    padding-bottom: 1rem;
+}
+
+.weather fieldset img{
+    width: 80px;
+    height: 80px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.weather fieldset{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.weather-info{
+    /* border: solid red 4px; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.weather p{
+    font-size: large;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-weight: 500;
+}
+
+
+#home{
+    /* border: solid black 3px; */
+    text-align: left;
+}
+
+/*formating display type*/
+.display-type{
+    /* border: solid orange 4px; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--background-color);   
+}
+
+#list, #grid{
+    cursor: pointer;
+}
+
+.spotlight{
+    /* border: solid green 3px; */
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/*cards formatting in a grid*/
+.cards{
+    /* border: solid black 4px; */
+    margin: 1rem;
+    background-color: var(--background-color);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.cards section{
+    border: solid var(--secondary-color) 3px;
+    border-radius: 10px;
+    box-shadow:  5px 4px 15px 5px var(--secondary-color), 5px 6px 20px 5px var(--text-color); 
+    margin: 1rem;
+    background-color: var(--primary-color);
+    justify-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.cards h2{
+    width: 100%;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cards img{
+    padding: 1.5rem;
+}
+
+/*formating cards in a list*/
+.list img{
+    display: none;
+}
+
+.list section{
+    /* border: solid yellow 4px; */
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    /* margin: 1rem; */
+}
+
+.list section:nth-child(odd){
+    background-color: var(--secondary-color);
+}
+
+/*footer formatting*/
+.course-info, .project-info{
+    padding-left:2rem;
+}
+
+footer{
+    padding-bottom: 2rem;
+}
+
+
+.social-media img{
+    /* border: solid black 3px; */
+    width: 60px;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem;   
+}
+
+.social-media{
+    /* border: solid yellow 3px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:center;
+}
