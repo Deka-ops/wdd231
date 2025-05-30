@@ -1,0 +1,89 @@
+Local Food Brand or Restaurant
+ “Abia Delights – Traditional Igbo Cuisine”
+Pages:
+
+Home: Introduction to the brand and Nigerian cuisine.
+
+Menu: Showcase dishes with images and descriptions.
+
+About/Contact: History of the brand, location, and contact form.
+
+Project Planning
+Goal: Showcase a local food brand, promote traditional Igbo dishes, and provide contact information.
+
+Pages:
+
+index.html – Home
+
+menu.html – Menu of dishes
+
+about.html – About the brand and contact info
+
+Layout:
+Use a consistent layout across all pages:
+
+Header with logo and navigation links
+
+Main content section
+
+Footer with copyright & social media
+
+ Color & Style (sample idea):
+Primary: #283618 (dark green)
+
+Accent: #dda15e (golden orange)
+
+Background: #fefae0 (light beige)
+
+Text: #000 or #606c38 (muted dark)
+
+HTML Content for Each Page
+index.html – Home Page
+Brand name and tagline (e.g., “Authentic Flavors of Igbo Land”)
+
+Brief intro to traditional Igbo cuisine
+
+Welcome image (e.g., a plate of Abacha, Ofe Akwu, etc.)
+
+Link to menu and contact
+
+menu.html – Menu Page
+Sectioned list of dishes:
+
+Name (e.g., “Ofe Akwu”)
+
+Image
+
+Description (ingredients, spice level, origin)
+
+Optional: price
+
+Consider using a grid layout for dishes
+
+about.html – About / Contact Page
+Story of the brand (e.g., founded in Aba, family recipes, etc.)
+
+Your passion for Nigerian cuisine
+
+Address and location (real or fictional)
+
+Contact form (name, email, message)
+
+Social media links (Instagram, WhatsApp)
+
+ 4. CSS Styling
+Use an external stylesheet: styles.css
+
+Mobile-first layout (responsive)
+
+Use media queries to adapt layout for wider screens
+
+ 5. JavaScript (Optional Enhancements)
+Display current date in footer
+
+Form validation
+
+Navigation menu toggle (for mobile)
+
+
+
