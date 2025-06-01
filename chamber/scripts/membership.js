@@ -47,3 +47,4 @@ function displayInfo(membership){
     showInfo.showModal();
     
 }
+
