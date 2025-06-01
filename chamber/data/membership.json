@@ -1,0 +1,33 @@
+{
+    "memberships":[
+        {
+            "name":"Non-profit Member",
+            "level": 0,
+            "fees": 0,
+            "description":"This memebership is only for Non profit Organizations, no fees are charged.",
+            "benefits":"Advertisement for fundrisings on our website at no cost."
+        },
+        {
+            "name": "Bronze Member",
+            "level": 1,
+            "fees": 89.99,
+            "description":"This memebership does not include advertisement. ",
+            "benefits":"Free admision to one special event a year."
+        },
+        {
+            "name": "Silver Member",
+            "level": 2,
+            "fees": 109.99,
+            "description":"This membership includes discounted advertisement in our website.",
+            "benefits":"Free admision to three special events a year. One training session every quarter. A spotligh position once a month for 76 hours. 25% discount in Advertisement."  
+        },
+        {
+            "name": "Gold Member",
+            "level": 3,
+            "fees": 119.99,
+            "description":"Full package.",
+            "benefits":"Free admision to all special events and training. Continuous spotlight position in the home page. Use of our hall for company events at no cost."
+        }
+
+    ]
+}
