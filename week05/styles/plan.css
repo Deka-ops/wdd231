@@ -1,0 +1,29 @@
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background-color: #fefae0;
+      color: #283618;
+    }
+
+    h1, h2 {
+      font-family: 'Playfair Display', serif;
+      color: #bc6c25;
+    }
+
+    header, section {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border: 2px solid #dda15e;
+      border-radius: 8px;
+      background-color: #fff;
+    }
+
+    img.wireframe {
+      width: 100%;
+      max-width: 400px;
+      border: 1px dashed #606c38;
+      margin-top: 1rem;
+    }
+  

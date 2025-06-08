@@ -85,5 +85,15 @@ Form validation
 
 Navigation menu toggle (for mobile)
 
+Reason For Choosing this Project:
+Many traditional foods are passed down orally or through practice. 
+A website helps document and preserve these recipes for future generations.
+I will like to Showcase the richness of Igbo culinary traditions and to 
+encourages cultural pride among the youth and diaspora.
+I will equally like to attract food bloggers, tourists, and chefs interested in Nigerian cuisine.
+The last but not the least will be to encourages people to buy local and Promote healthy eating rooted in African heritage.
+
+
+
 
 
