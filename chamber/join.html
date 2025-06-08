@@ -29,6 +29,7 @@
     <script src="scripts/membership.js" defer></script>
     <script src="scripts/spotlight.js" defer></script>
     <script src="scripts/person-info.js" defer></script>
+    <script src="scripts/join.js" defer></script>
     <title>Registeration Page For Aba Chamber Of Commerce</title>
 </head>
 <body>
@@ -52,42 +53,99 @@
         </nav>
     </div>
 
+    </header>
+
     <main>
-        <div>
-        <h1>Join Our Chamber Of Commerce</h1>
 
-        <form class="join-chamber" action="welcome.html" method="get">
-            <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
-            <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"> </label>
-            <label>Organizational Title <input type="text" name="organizational-title" title="Input should contain at least 7 characters.Alpha characters, hyphen and space. At least one upper case letter." autocomplete="organization-title" pattern="(?=.*-)(?=.* )(?=.*[a-z])(?=.*[A-Z]).{7,}"></label>
-            <label>E-mail <input type="email" name="email" required autocomplete="email" title="Your email" placeholder="yourname@gmail.com"></label>
-            <label>Phone Number <input type="tel" name="phone" required title="Your Phone Number" autocomplete="tel"></label>
-            <label>Bussiness/Organization's Name <input type="text" name="company" required title="Company's Name" autocomplete="organization"></label>
-
-            <h3>Choose Your Membership Level</h3>
-            <label><input type="radio" name="level" value="NP" checked> Non-profit</label>
-            <label><input type="radio" name="level" value="Bronze"> Bronze Membership</label>
-            <label><input type="radio" name="level" value="Silver"> Silver Membership</label>
-            <label><input type="radio" name="level" value="Gold"> Gold Membership</label>
-
-            <h3>Organization's Description</h3>
-            <label><textarea name="description" title="organization-description"></textarea></label>
-            <input type="hidden" name="time-stamp" id="time">
-            <input type="submit" value="Join Our Chamber">
-        </form>
+        <div class="intro-Heading">
+            <h1>Become a Member</h1>
+            <p>Join Aba Chamber of Commerce to gain access to exclusive events, benefits, and networking opportunities.</p>
         </div>
-        <div>
-        <h1 id="membership-title">Membership types</h1>
-        <div id="membership"></div>
-        <dialog id="show-info">
-            <div>
-                <h2></h2>
-                <button>X</button>
+
+        <div id="member-container">
+
+            <form method="get" action="thankyou.html" class="org-details" id="formI">
+                
+                <div id="formInfo">
+                    <label> First Name: 
+                        <input type="text" title="firstName" name="First" autocomplete="given-name" required>
+                    </label>
+
+                    <label> Last Name: 
+                        <input type="text" title="lastName" name="Last" required autocomplete="family-name" >
+                    </label>
+
+                    <label> Organizational Title: 
+                        <input type="text" title="orgTitle" name="orgTitle" required autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+                    </label>
+
+                    <label> Email Address: 
+                        <input type="email" title="email address" name="email" required autocomplete="email" placeholder="company@domain.com">
+                    </label>
+
+                    <label> Phone Number: 
+                        <input type="tel" title="phoneNumber" name="number" required autocomplete="tel" >
+                    </label>
+
+                    <label> Organization Name: 
+                        <input type="text" title="orgName" name="OrgName" required autocomplete="organization">
+                    </label>
+
+                </div>
+                
+                <fieldset id="fieldsetArea">
+                    <legend>Select Membership Level</legend>
+                    <label> <input type="radio" name="membershipLevel" value="NP Membership" required> NP Membership </label>
+                    <label> <input type="radio" name="membershipLevel" value="Bronze Membership" required> Bronze Membership </label>
+                    <label> <input type="radio" name="membershipLevel" value="Silver Membership" required> Silver Membership </label>
+                    <label> <input type="radio" name="membershipLevel" value="Gold Membership" required> Gold Membership </label>
+                    
+                </fieldset>
+                
+                <label id="orgDetails"> Organization Description: 
+                    <textarea name="orgDescription" id="orgDescription" title="describe your organization"></textarea>
+                </label>
+                
+                <button id="submit-Btn" type="submit">Submit Application</button>
+                
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+
+
+            </form>
+
+            
+
+            
+            <div class="benefits">
+                <h2>Membership Levels</h2>
+                <p>Learn more about each membership levels and their benefits</p>
+
+            
+                <div id="NP-M">
+                    <h3>NP</h3>
+                    <p>Learn More!</p>
+                </div>
+
+                <div id="Bronze-M">
+                    <h3>Bronze</h3>
+                    <p>Learn More!</p>
+                </div>
+
+                <div id="Silver-M">
+                    <h3>Silver</h3>
+                    <p>Learn More!</p>
+                </div>
+
+                <div id="Gold-M">
+                    <h3>Gold</h3>
+                    <p>Learn More!</p>
+                </div>
             </div>
-            <h3></h3>
-            <p></p>
-        </dialog>
+
+            <dialog id="dsDialogue" class="dDesign"></dialog>
+
         </div>
+
     </main>
      <footer>
         <div class="project-info">
