@@ -1,0 +1,64 @@
+{
+  "places": [
+    {
+      "name": "Ariaria International Market",
+      "address": "Ariaria Rd, Aba",
+      "description": "One of the largest markets in West Africa known for local manufacturing and commerce.",
+      "image": "images/ariaria_market.webp"
+    },
+    {
+      "name": "National Museum of Colonial History",
+      "address": "10 Azikiwe Rd, Aba",
+      "description": "A historic museum showcasing artifacts and stories from Nigeria’s colonial past.",
+      "image": "images/colonial_museum.webp"
+    },
+    {
+      "name": "Enyimba International Stadium",
+      "address": "Ogbor Hill, Aba",
+      "description": "Home of the Enyimba Football Club and a hotspot for sports fans.",
+      "image": "images/enyimba_stadium.webp"
+    },
+    {
+      "name": "Ekeoha Shopping Plaza",
+      "address": "Ekeoha Plaza, Aba",
+      "description": "Popular destination for fashion, electronics, and wholesale shopping.",
+      "image": "images/ekeoha_plaza.webp"
+    },
+    {
+      "name": "Azumini Blue River",
+      "address": "Azumini, Aba",
+      "description": "Known for its crystal-clear blue waters and natural beauty—perfect for picnics and photography.",
+      "image": "images/azumini_river.webp"
+    },
+    {
+      "name": "Ngwa Road Pottery Centre",
+      "address": "Ngwa Rd, Aba",
+      "description": "Traditional pottery workshops where visitors can observe and participate in pottery making.",
+      "image": "images/pottery_centre.webp"
+    },
+    {
+      "name": "Abia Tower",
+      "address": "Umuahia Rd, near Aba border",
+      "description": "A notable architectural landmark marking the entry into Abia State.",
+      "image": "images/abia_tower.webp"
+    },
+    {
+      "name": "Railway Industrial Heritage Park",
+      "address": "Factory Rd, Aba",
+      "description": "Celebrates Aba’s role in industrial and transport development in southeastern Nigeria.",
+      "image": "images/railway_park.webp"
+    },
+    {
+      "name": "Brass Tacks Art Gallery",
+      "address": "Pound Rd, Aba",
+      "description": "A contemporary art gallery featuring emerging and established local artists.",
+      "image": "images/brass_tacks_gallery.webp"
+    },
+    {
+      "name": "Waterside Recreational Park",
+      "address": "Waterside, Aba",
+      "description": "A family-friendly outdoor park with green spaces, fountains, and weekend events.",
+      "image": "images/waterside_park.webp"
+    }
+  ]
+}
