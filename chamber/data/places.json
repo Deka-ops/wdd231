@@ -1,64 +1,72 @@
-{
-  "places": [
-    {
-      "name": "Ariaria International Market",
-      "address": "Ariaria Rd, Aba",
-      "description": "One of the largest markets in West Africa known for local manufacturing and commerce.",
-      "image": "images/ariaria_market.webp"
-    },
-    {
-      "name": "National Museum of Colonial History",
-      "address": "10 Azikiwe Rd, Aba",
-      "description": "A historic museum showcasing artifacts and stories from Nigeria’s colonial past.",
-      "image": "images/colonial_museum.webp"
-    },
-    {
-      "name": "Enyimba International Stadium",
-      "address": "Ogbor Hill, Aba",
-      "description": "Home of the Enyimba Football Club and a hotspot for sports fans.",
-      "image": "images/enyimba_stadium.webp"
-    },
-    {
-      "name": "Ekeoha Shopping Plaza",
-      "address": "Ekeoha Plaza, Aba",
-      "description": "Popular destination for fashion, electronics, and wholesale shopping.",
-      "image": "images/ekeoha_plaza.webp"
-    },
-    {
-      "name": "Azumini Blue River",
-      "address": "Azumini, Aba",
-      "description": "Known for its crystal-clear blue waters and natural beauty—perfect for picnics and photography.",
-      "image": "images/azumini_river.webp"
-    },
-    {
-      "name": "Ngwa Road Pottery Centre",
-      "address": "Ngwa Rd, Aba",
-      "description": "Traditional pottery workshops where visitors can observe and participate in pottery making.",
-      "image": "images/pottery_centre.webp"
-    },
-    {
-      "name": "Abia Tower",
-      "address": "Umuahia Rd, near Aba border",
-      "description": "A notable architectural landmark marking the entry into Abia State.",
-      "image": "images/abia_tower.webp"
-    },
-    {
-      "name": "Railway Industrial Heritage Park",
-      "address": "Factory Rd, Aba",
-      "description": "Celebrates Aba’s role in industrial and transport development in southeastern Nigeria.",
-      "image": "images/railway_park.webp"
-    },
-    {
-      "name": "Brass Tacks Art Gallery",
-      "address": "Pound Rd, Aba",
-      "description": "A contemporary art gallery featuring emerging and established local artists.",
-      "image": "images/brass_tacks_gallery.webp"
-    },
-    {
-      "name": "Waterside Recreational Park",
-      "address": "Waterside, Aba",
-      "description": "A family-friendly outdoor park with green spaces, fountains, and weekend events.",
-      "image": "images/waterside_park.webp"
-    }
-  ]
-}
+[
+  {
+    "name": "Ariaria International Market",
+    "description": "One of the largest markets in West Africa, ideal for shopping local textiles, footwear, and electronics.",
+    "category": "Shopping & Culture",
+    "location": "Aba",
+    "image": "images/ariaria_international_market"
+  },
+  {
+    "name": "National Museum of Colonial History",
+    "description": "Explore Nigeria’s colonial past with rare artifacts, historical documents, and exhibitions.",
+    "category": "History & Education",
+    "location": "Aba",
+    "image": "images/national-museum.jpg"
+  },
+  {
+    "name": "Enyimba Stadium",
+    "description": "Catch a match or tour the home of Enyimba FC, one of Nigeria’s most successful football clubs.",
+    "category": "Sports & Entertainment",
+    "location": "Aba",
+    "image": "images/enyimba-stadium.jpg"
+  },
+  {
+    "name": "Cenotaph Aba (Aba Memorial Park)",
+    "description": "A peaceful monument commemorating war heroes, perfect for history lovers and reflection.",
+    "category": "History & Memorial",
+    "location": "Aba",
+    "image": "images/aba-cenotaph.jpg"
+  },
+  {
+    "name": "Ngwa Road Textile Market",
+    "description": "Discover colorful African prints, fabrics, and tailoring craft from local designers.",
+    "category": "Culture & Shopping",
+    "location": "Aba",
+    "image": "images/ngwa-market.jpg"
+  },
+  {
+    "name": "Azumini Blue River",
+    "description": "Located just outside Aba, this natural clear-blue river offers canoe rides, picnics, and swimming.",
+    "category": "Nature & Recreation",
+    "location": "Azumini (near Aba)",
+    "image": "images/azumini-river.jpg"
+  },
+  {
+    "name": "Shoprite Aba (Osisioma)",
+    "description": "Modern shopping, food courts, and entertainment all in one accessible location.",
+    "category": "Leisure & Shopping",
+    "location": "Osisioma, Aba",
+    "image": "images/shoprite-aba.jpg"
+  },
+  {
+    "name": "Brass Monkey Restaurant & Lounge",
+    "description": "Trendy spot for local dishes, drinks, and nightlife in a relaxed atmosphere.",
+    "category": "Food & Nightlife",
+    "location": "Aba",
+    "image": "images/brass-monkey.jpg"
+  },
+  {
+    "name": "TONIMAS Event Centre",
+    "description": "Frequent host of local events, trade fairs, and cultural showcases — great for networking.",
+    "category": "Events & Culture",
+    "location": "Aba",
+    "image": "images/tonimas-centre.jpg"
+  },
+  {
+    "name": "Aba Sports Club",
+    "description": "A family-friendly spot with tennis courts, a swimming pool, and recreational activities.",
+    "category": "Leisure & Sports",
+    "location": "Aba",
+    "image": "images/aba-sports-club.jpg"
+  }
+]

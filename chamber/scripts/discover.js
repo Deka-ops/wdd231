@@ -19,7 +19,7 @@ localStorage.setItem("lastVisit", now);
 
 // Load and display places from JSON
 const gridContainer = document.querySelector(".places-grid");
-
+import {places} from "../data/places.mjs"
 fetch("data/places.json")
   .then((response) => {
     if (!response.ok) throw new Error("Failed to load JSON");
@@ -81,7 +81,7 @@ const displayPlaces = (places) =>{
         address.textContent = `Find us at: ${place.address}`;
         cost.textContent = `Cost: ${place.cost}`;
         cost.setAttribute("id","cost");
-        photo.setAttribute("src", place.photo_url);
+        photo.setAttribute("src", place.image);
         photo.setAttribute("alt", `${place.name}`);
         photo.setAttribute("loading", "lazy");
         learnMore.setAttribute("type", "submit");
