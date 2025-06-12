@@ -19,7 +19,7 @@ localStorage.setItem("lastVisit", now);
 
 // Load and display places from JSON
 const gridContainer = document.querySelector(".places-grid");
-import {places} from "../data/places.mjs"
+import {places} from "../data/places.json"
 fetch("data/places.json")
   .then((response) => {
     if (!response.ok) throw new Error("Failed to load JSON");
@@ -58,7 +58,7 @@ fetch("data/places.json")
     gridContainer.innerHTML = `<p class="error">Unable to load locations. Please try again later.</p>`;
   });
 
-  import {places} from "../data/places.mjs"
+  import {places} from "../data/places.json"
 
 const message = document.querySelector("#message");
 const description = document.querySelector("#message p");
