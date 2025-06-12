@@ -4,14 +4,14 @@
     "description": "One of the largest markets in West Africa, ideal for shopping local textiles, footwear, and electronics.",
     "category": "Shopping & Culture",
     "location": "Aba",
-    "images": "images/ariaria_international_market.jpg"
+    "image": "images/ariaria_international_market.jpg"
   },
   {
     "name": "National Museum of Colonial History",
     "description": "Explore Nigeria’s colonial past with rare artifacts, historical documents, and exhibitions.",
     "category": "History & Education",
     "location": "Aba",
-    "images": "images/National-War-Museum-Umuahia-2.webp"
+    "image": "images/National-War-Museum-Umuahia-2.webp"
   },
   {
     "name": "Enyimba Stadium",
