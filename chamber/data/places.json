@@ -4,42 +4,36 @@
     "description": "One of the largest markets in West Africa, ideal for shopping local textiles, footwear, and electronics.",
     "category": "Shopping & Culture",
     "location": "Aba",
-    "image": "images/ariaria_international_market"
+    "images": "images/ariaria_international_market.jpg"
   },
   {
     "name": "National Museum of Colonial History",
     "description": "Explore Nigeria’s colonial past with rare artifacts, historical documents, and exhibitions.",
     "category": "History & Education",
     "location": "Aba",
-    "image": "images/national-museum.jpg"
+    "images": "images/National-War-Museum-Umuahia-2.webp"
   },
   {
     "name": "Enyimba Stadium",
     "description": "Catch a match or tour the home of Enyimba FC, one of Nigeria’s most successful football clubs.",
     "category": "Sports & Entertainment",
     "location": "Aba",
-    "image": "images/enyimba-stadium.jpg"
+    "image": "images/enyimba_stadium.webp"
   },
-  {
-    "name": "Cenotaph Aba (Aba Memorial Park)",
-    "description": "A peaceful monument commemorating war heroes, perfect for history lovers and reflection.",
-    "category": "History & Memorial",
-    "location": "Aba",
-    "image": "images/aba-cenotaph.jpg"
-  },
+  
   {
     "name": "Ngwa Road Textile Market",
     "description": "Discover colorful African prints, fabrics, and tailoring craft from local designers.",
     "category": "Culture & Shopping",
     "location": "Aba",
-    "image": "images/ngwa-market.jpg"
+    "image": "images/ngwa_road_aba.webp"
   },
   {
     "name": "Azumini Blue River",
     "description": "Located just outside Aba, this natural clear-blue river offers canoe rides, picnics, and swimming.",
     "category": "Nature & Recreation",
     "location": "Azumini (near Aba)",
-    "image": "images/azumini-river.jpg"
+    "image": "images/azumini_blue_river.webp"
   },
   {
     "name": "Shoprite Aba (Osisioma)",
