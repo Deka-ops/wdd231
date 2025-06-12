@@ -4,63 +4,81 @@
     "description": "One of the largest markets in West Africa, ideal for shopping local textiles, footwear, and electronics.",
     "category": "Shopping & Culture",
     "location": "Aba",
+    "address": "Ariaria Market Road, Aba, Abia State, Nigeria",
+    "fee": "Free",
     "image": "images/ariaria_international_market.jpg"
   },
   {
     "name": "National Museum of Colonial History",
-    "description": "Explore Nigeria’s colonial past with rare artifacts, historical documents, and exhibitions.",
+    "description": "Explore Nigeria's colonial past with rare artifacts, historical documents, and exhibitions.",
     "category": "History & Education",
     "location": "Aba",
+    "address": "Aba Town Hall Complex, Asa Road, Aba, Abia State, Nigeria",
+    "fee": "#500",
     "image": "images/National-War-Museum-Umuahia-2.webp"
-  },
-  {
-    "name": "Enyimba Stadium",
-    "description": "Catch a match or tour the home of Enyimba FC, one of Nigeria’s most successful football clubs.",
-    "category": "Sports & Entertainment",
-    "location": "Aba",
-    "image": "images/enyimba_stadium.webp"
-  },
-  
-  {
-    "name": "Ngwa Road Textile Market",
-    "description": "Discover colorful African prints, fabrics, and tailoring craft from local designers.",
-    "category": "Culture & Shopping",
-    "location": "Aba",
-    "image": "images/ngwa_road_aba.webp"
   },
   {
     "name": "Azumini Blue River",
     "description": "Located just outside Aba, this natural clear-blue river offers canoe rides, picnics, and swimming.",
     "category": "Nature & Recreation",
     "location": "Azumini (near Aba)",
+    "address": "Azumini, Ukwa East LGA, Abia State, Nigeria",
+    "fee": "#1000",
     "image": "images/azumini_blue_river.webp"
+  },
+  {
+    "name": "Enyimba Stadium",
+    "description": "Catch a match or tour the home of Enyimba FC, one of Nigeria\u2019s most successful football clubs.",
+    "category": "Sports & Entertainment",
+    "location": "Aba",
+    "address": "Aba-Owerri Road, Aba, Abia State, Nigeria",
+    "fee": "200 (on non-match days), Match tickets vary",
+    "image": "images/enyimba_stadium.webp"
+  },
+  {
+    "name": "Ngwa Road Textile Market",
+    "description": "Discover colorful African prints, fabrics, and tailoring craft from local designers.",
+    "category": "Culture & Shopping",
+    "location": "Aba",
+    "address": "Ngwa Road, Aba, Abia State, Nigeria",
+    "fee": "Free",
+    "image": "images/ngwa_road_market.jpg"
   },
   {
     "name": "Shoprite Aba (Osisioma)",
     "description": "Modern shopping, food courts, and entertainment all in one accessible location.",
     "category": "Leisure & Shopping",
     "location": "Osisioma, Aba",
-    "image": "images/shoprite-aba.jpg"
+    "address": "Enugu-Port Harcourt Expressway, Osisioma, Aba, Abia State, Nigeria",
+    "fee": "Free Entry",
+    "image": "images/shoprite_aba.webp"
   },
   {
     "name": "Brass Monkey Restaurant & Lounge",
     "description": "Trendy spot for local dishes, drinks, and nightlife in a relaxed atmosphere.",
     "category": "Food & Nightlife",
     "location": "Aba",
-    "image": "images/brass-monkey.jpg"
+    "address": "Brass Monkey, Factory Road, Aba, Abia State, Nigeria",
+    "fee": "Free Entry (Meals from #1500)",
+    "image": "images/brass_monkey.webp"
   },
-  {
-    "name": "TONIMAS Event Centre",
-    "description": "Frequent host of local events, trade fairs, and cultural showcases — great for networking.",
-    "category": "Events & Culture",
+   {
+    "name": "Ekeoha Shopping Center",
+    "description": "Discover colorful African prints, fabrics, and tailoring craft from local designers.",
+    "category": "Culture & Shopping",
     "location": "Aba",
-    "image": "images/tonimas-centre.jpg"
+    "address": "Asa Road, Aba, Abia State, Nigeria",
+    "fee": "Free",
+    "image": "images/ekeoha_shopping_complex.webp"
   },
   {
     "name": "Aba Sports Club",
     "description": "A family-friendly spot with tennis courts, a swimming pool, and recreational activities.",
     "category": "Leisure & Sports",
     "location": "Aba",
-    "image": "images/aba-sports-club.jpg"
+    "address": "Ikot Ekpene Road, Aba, Abia State, Nigeria",
+    "fee": "#1000 per day pass",
+    "image": "images/Aba_town_hall.jpg"
   }
+ 
 ]

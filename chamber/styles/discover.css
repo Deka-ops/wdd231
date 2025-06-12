@@ -1,81 +1,29 @@
-/* discover.css: Mobile-first base styles */
+/* discover-large.css: Styles for desktop screens 1025px and above */
 
-body {
-  font-family: 'Rubik', sans-serif;
-  margin: 0;
-  background-color: #fefae0;
-  color: #283618;
-}
+@media screen and (min-width: 1025px) {
+  .places-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "place1 place2"
+      "place3 place4"
+      "place5 place6" 
+      "place7 place8"
+      "place9 place10";
+    gap: 2rem;
+  }
 
-main {
-  padding: 1rem;
-}
+  .card:hover img {
+    transform: scale(1.05);
+    filter: brightness(1.1) contrast(1.2);
+  }
 
-h1 {
-  text-align: center;
-  margin-bottom: 1rem;
-}
+  .card img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
 
-.visitor-message {
-  text-align: center;
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  color: #606c38;
-}
-
-.places-grid {
-  display: grid;
-  grid-template-areas:
-    "place1"
-    "place2"
-    "place3"
-    "place4"
-    "place5"
-    "place6"
-    "place7"
-    "place8";
-  gap: 1rem;
-}
-
-.card {
-  background: #fff;
-  border: 1px solid #dda15e;
-  border-radius: 10px;
-  padding: 1rem;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.card h2 {
-  margin: 0 0 0.5rem 0;
-}
-
-.card figure {
-  margin: 0;
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.card address,
-.card p {
-  margin: 0.5rem 0;
-  font-style: normal;
-}
-
-.card button {
-  background-color: #bc6c25;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 0.5rem;
-}
-
-.card button:hover {
-  background-color: #283618;
+  .visitor-message {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
 }
