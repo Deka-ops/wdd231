@@ -58,8 +58,6 @@ fetch("data/places.json")
     gridContainer.innerHTML = `<p class="error">Unable to load locations. Please try again later.</p>`;
   });
 
-  import {places} from "../data/places.json"
-
 const message = document.querySelector("#message");
 const description = document.querySelector("#message p");
 const closeButton = document.querySelector("#message button");
