@@ -1,3 +1,7 @@
+window.onload = function () {
+  fetchMenuItems()
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   formatYear();
   setupHamburger();
