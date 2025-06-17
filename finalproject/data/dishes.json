@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "name": "Ofe Akwu",
+    "image": "images/ofe-akwu.jpg",
+    "origin": "Anambra",
+    "mainIngredient": "Palm fruit extract",
+    "description": "A rich palm fruit stew commonly served with rice.",
+    "price": "2500"
+  },
+  {
+    "id": 2,
+    "name": "Fufu and Oha Soup",
+    "image": "images/oha-soup.jpg",
+    "origin": "Imo",
+    "mainIngredient": "Oha leaves",
+    "description": "Traditional soup made with oha leaves and assorted meats.",
+    "price": "3000"
+  },
+  {
+    "id": 3,
+    "name": "Ukwa",
+    "image": "images/ukwa.jpg",
+    "origin": "Abia",
+    "mainIngredient": "Breadfruit",
+    "description": "Nutritious porridge made from African breadfruit.",
+    "price": "2800"
+  },
+  {
+    "id": 4,
+    "name": "Nkwobi",
+    "image": "images/nkwobi.jpg",
+    "origin": "Enugu",
+    "mainIngredient": "Cow foot",
+    "description": "Spicy cow foot delicacy served in thick palm oil sauce.",
+    "price": "3500"
+  },
+  {
+    "id": 5,
+    "name": "Abacha",
+    "image": "images/abacha.jpg",
+    "origin": "Anambra",
+    "mainIngredient": "Cassava",
+    "description": "Popularly called African salad, made from shredded cassava.",
+    "price": "2200"
+  },
+  {
+    "id": 6,
+    "name": "Egusi Soup",
+    "image": "images/egusi.jpg",
+    "origin": "Across Igbo States",
+    "mainIngredient": "Melon seeds",
+    "description": "Savory soup made with ground melon seeds and vegetables.",
+    "price": "3000"
+  },
+  {
+    "id": 7,
+    "name": "Ofe Nsala",
+    "image": "images/nsala.jpg",
+    "origin": "Delta/Anambra",
+    "mainIngredient": "White soup, catfish",
+    "description": "A light, peppery white soup made without oil.",
+    "price": "3200"
+  },
+  {
+    "id": 8,
+    "name": "Ogbono Soup",
+    "image": "images/ogbono.jpg",
+    "origin": "Igbo",
+    "mainIngredient": "Wild mango seeds",
+    "description": "Draw soup made with ground ogbono seeds and meat.",
+    "price": "2800"
+  },
+  {
+    "id": 9,
+    "name": "Jollof Rice",
+    "image": "images/jollof.jpg",
+    "origin": "West Africa",
+    "mainIngredient": "Rice and tomato base",
+    "description": "Beloved rice dish spiced and cooked in tomato sauce.",
+    "price": "2000"
+  },
+  {
+    "id": 10,
+    "name": "Moi Moi",
+    "image": "images/moimoi.jpg",
+    "origin": "Nigeria",
+    "mainIngredient": "Bean paste",
+    "description": "Steamed bean pudding seasoned with spices and proteins.",
+    "price": "1800"
+  },
+  {
+    "id": 11,
+    "name": "Pepper Soup",
+    "image": "images/peppersoup.jpg",
+    "origin": "South Nigeria",
+    "mainIngredient": "Assorted meat/fish",
+    "description": "Hot spicy soup known for its medicinal properties.",
+    "price": "2700"
+  },
+  {
+    "id": 12,
+    "name": "Akara",
+    "image": "images/akara.jpg",
+    "origin": "West Africa",
+    "mainIngredient": "Black-eyed peas",
+    "description": "Deep-fried bean cakes often served with pap.",
+    "price": "1000"
+  },
+  {
+    "id": 13,
+    "name": "Yam Porridge",
+    "image": "images/yam-porridge.jpg",
+    "origin": "Nigeria",
+    "mainIngredient": "Yam",
+    "description": "Soft"
+  }
+]
+  

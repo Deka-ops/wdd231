@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore the full menu of Abia Delights – A variety of traditional Igbo dishes." />
+  <meta name="author" content="Gertrude Njideka" />
+  <meta property="og:title" content="Abia Delights Menu – Igbo Cuisine" />
+  <meta property="og:description" content="Check out our delicious and authentic Igbo dishes at Abia Delights." />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:url" content="https://yourdomain.com/menu.html" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="icon" href="images/favicon.ico" sizes="16x16" type="image/jpeg">
+  <link rel="icon" href="icons/abia_delight_logo.ico">
+  <link rel="stylesheet" href="styles/normalize.css" media="screen">
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="styles/media.css" />
+  <script src="scripts/menu.js" defer></script>
+  <scripts src="scripts/main.js" defer></scripts>
+  <title>Abia Delights | Menu</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="icons/Abia-Delight.png" alt="Abia Delights Logo" class="logo" />
+      <nav id="navbar">
+        <button id="hamburger" aria-label="Menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    </section>
+      <section class="menu-header">
+        <h1>Our Menu</h1>
+        <p>Delight in our carefully prepared traditional dishes straight from Igbo kitchens.</p>
+      </section>
+      <section class="menu-grid" id="menuContainer">
+        <!-- Dishes will be dynamically inserted here -->
+      </section>
+
+      <!-- Modal -->
+      <div id="dishModal" class="modal hidden" role="dialog" aria-modal="true">
+        <div class="modal-content">
+          <button class="close-btn" id="closeModal">&times;</button>
+          <div id="modalDetails"></div>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Abia Delights | All rights reserved</p>
+     <footer>
+      <div class="project-info">
+        <h4>Aba Chamber of Commerce</h4>
+        <p>mpk18, zone 8</p>
+        <p>Ekeoha Shopping Center Aba</p>
+        <p>info@chamber.org</p>
+        <p>(904) 651-7876</p>
+      </div>
+      <div class="social-media">
+        <a href="https://facebook.com">
+          <img src="icons/fb.jfif" alt="facebook-logo">
+        </a>
+        <a href="https://twitter.com">
+          <img src="icons/tw.png" alt="twitter-logo">
+        </a>
+        <a href="https://instagram.com">
+          <img src="icons/in.jfif" alt="instagram-logo">
+        </a>
+      </div>
+      <div class="course-info">
+        <h4>WDD231 Class Project</h4>
+        <p>Gertrude Njideka Chori</p>
+        <p><span id="current-year"></span></p>
+        <p><span id="last-modified"></span></p>
+        </div>
+  </footer>
+</body>
+
+</html>

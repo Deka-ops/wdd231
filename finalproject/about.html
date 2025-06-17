@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn about Abia Delights – Our story, values, and how to reach us." />
+  <meta name="author" content="Gertrude Njideka" />
+  <meta property="og:title" content="About Abia Delights – Traditional Igbo Cuisine" />
+  <meta property="og:description" content="Discover the journey and vision behind Abia Delights, and how to contact us." />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:url" content="https://yourdomain.com/about.html" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="icon" href="images/favicon.ico" sizes="16x16" type="image/jpeg">
+  <link rel="icon" href="icons/abia_delight_logo.ico">
+  <link rel="stylesheet" href="styles/normalize.css" media="screen">
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <link rel="stylesheet" href="styles/index.css" />
+  <title>Abia Delights | About</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="icons/Abia-Delight.png" alt="Abia Delights Logo" class="logo" />
+      <nav id="navbar">
+        <button id="hamburger" aria-label="Menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="about-intro">
+      <h1>About Abia Delights</h1>
+      <p>Abia Delights is a celebration of authentic Igbo cuisine rooted in culture and tradition. Founded with a passion for culinary heritage, we strive to bring the flavors of Southeastern Nigeria to everyone’s table.</p>
+    </section>
+
+    <section class="brand-history">
+      <h2>Our Story</h2>
+      <p>We began as a small kitchen in Aba, serving home-cooked meals to friends and family. As word spread, so did our dream. Today, Abia Delights honors our ancestors by preserving recipes passed down through generations, while embracing modern taste and service excellence.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm" action="thankyou.html" method="GET">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Abia Delights | All rights reserved</p>
+     <footer>
+      <div class="project-info">
+        <h4>Aba Chamber of Commerce</h4>
+        <p>mpk18, zone 8</p>
+        <p>Ekeoha Shopping Center Aba</p>
+        <p>info@chamber.org</p>
+        <p>(904) 651-7876</p>
+      </div>
+      <div class="social-media">
+        <a href="https://facebook.com">
+          <img src="icons/fb.jfif" alt="facebook-logo">
+        </a>
+        <a href="https://twitter.com">
+          <img src="icons/tw.png" alt="twitter-logo">
+        </a>
+        <a href="https://instagram.com">
+          <img src="icons/in.jfif" alt="instagram-logo">
+        </a>
+      </div>
+      <div class="course-info">
+        <h4>WDD231 Class Project</h4>
+        <p>Gertrude Njideka Chori</p>
+        <p><span id="current-year"></span></p>
+        <p><span id="last-modified"></span></p>
+        <script type="module" src="scripts/main.js"></script>
+        </div>
+    </footer>
+</body>
+</html>

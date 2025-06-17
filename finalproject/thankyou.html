@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thank you for contacting Abia Delights – Traditional Igbo Cuisine." />
+  <meta name="author" content="Gertrude Njideka Chori" />
+  <meta property="og:title" content="Abia Delights – Thank You" />
+  <meta property="og:description" content="Thank you for reaching out to Abia Delights. We will be in touch soon." />
+  <meta property="og:image" content="images/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/thankyou.html" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Thank You - Abia Delights</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="images/logo.png" alt="Abia Delights Logo" class="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <button id="hamburger">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="thank-you">
+    <div class="container">
+      <h1>Thank You!</h1>
+      <p>Your message has been successfully submitted. We’ll get back to you shortly.</p>
+      <a href="index.html" class="button">Return to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Abia Delights – Traditional Igbo Cuisine. All rights reserved.</p>
+  </footer>
+
+  <script type="module">
+    import { formatYear, setupHamburger } from "./js/utils.js";
+    formatYear();
+    setupHamburger();
+  </script>
+</body>
+
+</html>
