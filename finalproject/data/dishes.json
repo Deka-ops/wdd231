@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Ofe Akwu",
-    "image": "images/ofe-akwu.jpg",
+    "image": "images/my-ofe-akwu.webp",
     "origin": "Anambra",
     "mainIngredient": "Palm fruit extract",
     "description": "A rich palm fruit stew commonly served with rice.",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Fufu and Oha Soup",
-    "image": "images/oha-soup.jpg",
+    "image": "images/oha-soup.webp",
     "origin": "Imo",
     "mainIngredient": "Oha leaves",
     "description": "Traditional soup made with oha leaves and assorted meats.",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Ukwa",
-    "image": "images/ukwa.jpg",
+    "image": "images/ukwa.webp",
     "origin": "Abia",
     "mainIngredient": "Breadfruit",
     "description": "Nutritious porridge made from African breadfruit.",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Nkwobi",
-    "image": "images/nkwobi.jpg",
+    "image": "images/nkwobi.webp",
     "origin": "Enugu",
     "mainIngredient": "Cow foot",
     "description": "Spicy cow foot delicacy served in thick palm oil sauce.",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Abacha",
-    "image": "images/abacha.jpg",
+    "image": "images/abacha.webp",
     "origin": "Anambra",
     "mainIngredient": "Cassava",
     "description": "Popularly called African salad, made from shredded cassava.",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "Egusi Soup",
-    "image": "images/egusi.jpg",
+    "image": "images/egusi-soup.webp",
     "origin": "Across Igbo States",
     "mainIngredient": "Melon seeds",
     "description": "Savory soup made with ground melon seeds and vegetables.",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "name": "Ofe Nsala",
-    "image": "images/nsala.jpg",
+    "image": "images/ofe-nsala.webp",
     "origin": "Delta/Anambra",
     "mainIngredient": "White soup, catfish",
     "description": "A light, peppery white soup made without oil.",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "name": "Ogbono Soup",
-    "image": "images/ogbono.jpg",
+    "image": "images/ogbono-soup.webp",
     "origin": "Igbo",
     "mainIngredient": "Wild mango seeds",
     "description": "Draw soup made with ground ogbono seeds and meat.",
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "name": "Jollof Rice",
-    "image": "images/jollof.jpg",
+    "image": "images/party-jollof-rice.webp",
     "origin": "West Africa",
     "mainIngredient": "Rice and tomato base",
     "description": "Beloved rice dish spiced and cooked in tomato sauce.",
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "name": "Moi Moi",
-    "image": "images/moimoi.jpg",
+    "image": "images/moi-moi.webp",
     "origin": "Nigeria",
     "mainIngredient": "Bean paste",
     "description": "Steamed bean pudding seasoned with spices and proteins.",
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "name": "Pepper Soup",
-    "image": "images/peppersoup.jpg",
+    "image": "images/peper-soup.webp",
     "origin": "South Nigeria",
     "mainIngredient": "Assorted meat/fish",
     "description": "Hot spicy soup known for its medicinal properties.",
@@ -101,7 +101,7 @@
   {
     "id": 12,
     "name": "Akara",
-    "image": "images/akara.jpg",
+    "image": "images/akara.webp",
     "origin": "West Africa",
     "mainIngredient": "Black-eyed peas",
     "description": "Deep-fried bean cakes often served with pap.",
@@ -110,7 +110,7 @@
   {
     "id": 13,
     "name": "Yam Porridge",
-    "image": "images/yam-porridge.jpg",
+    "image": "images/yam-porridge.webp",
     "origin": "Nigeria",
     "mainIngredient": "Yam",
     "description": "Soft"
